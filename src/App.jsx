@@ -67,7 +67,7 @@ const App = () => {
         <Navbar />
         <div className="flex gap-2">
           <div className="relative flex flex-grow items-center">
-            <FiSearch className="absolute ml-1 text-3xl text-white" />
+            <FiSearch className="absolute ml-1 text-2xl text-white" />
             <input
               onChange={filterContacts}
               type="text"
