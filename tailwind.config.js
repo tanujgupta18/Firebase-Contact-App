@@ -3,6 +3,9 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      screens: {
+        xs: { min: '375px' },
+      },
       colors: {
         gray: '#5A5959',
         yellow: '#FFEAAE',
