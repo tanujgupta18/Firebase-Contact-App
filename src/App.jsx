@@ -63,15 +63,15 @@ const App = () => {
 
   return (
     <>
-      <div className="mx-auto min-w-[320px] px-4">
+      <div className="mx-auto w-[320px] sm:w-[500px] md:w-[700px] px-4">
         <Navbar />
         <div className="flex gap-2">
           <div className="relative flex flex-grow items-center">
-            <FiSearch className="absolute ml-1 text-2xl md:text-3xl text-white" />
+            <FiSearch className="absolute ml-1 text-2xl text-white" />
             <input
               onChange={filterContacts}
               type="text"
-              className=" h-10 flex-grow rounded-md border border-white bg-transparent pl-7 text-white"
+              className="h-10 flex-grow rounded-md border border-white bg-transparent pl-9 text-white"
             />
           </div>
 
