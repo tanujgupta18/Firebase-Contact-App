@@ -63,21 +63,21 @@ const App = () => {
 
   return (
     <>
-      <div className="mx-auto min-w-[300px] px-4">
+      <div className="mx-auto max-w-xs px-4">
         <Navbar />
         <div className="flex gap-2">
           <div className="relative flex flex-grow items-center">
-            <FiSearch className="absolute ml-1 text-2xl text-white" />
+            <FiSearch className="absolute ml-1 sm:text-2xl md:text-3xl text-white" />
             <input
               onChange={filterContacts}
               type="text"
-              className=" h-10 flex-grow rounded-md border border-white bg-transparent pl-9 text-white"
+              className=" h-10 flex-grow rounded-md border border-white bg-transparent pl-7 text-white"
             />
           </div>
 
           <AiFillPlusCircle
             onClick={onOpen}
-            className="cursor-pointer text-5xl text-white"
+            className="cursor-pointer xs:text-4xl md:text-5xl text-white"
           />
         </div>
         <div className="mt-4 flex flex-col gap-3">
