@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <>
-      <div className="mx-auto max-w-xs px-4">
+      <div className="mx-auto min-w-[320px] px-4">
         <Navbar />
         <div className="flex gap-2">
           <div className="relative flex flex-grow items-center">
@@ -77,7 +77,7 @@ const App = () => {
 
           <AiFillPlusCircle
             onClick={onOpen}
-            className="cursor-pointer text-4xl md:text-5xl text-white"
+            className="cursor-pointer text-5xl text-white"
           />
         </div>
         <div className="mt-4 flex flex-col gap-3">
