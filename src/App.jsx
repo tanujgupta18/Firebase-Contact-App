@@ -77,7 +77,7 @@ const App = () => {
 
           <AiFillPlusCircle
             onClick={onOpen}
-            className="cursor-pointer xs:text-4xl md:text-5xl text-white"
+            className="cursor-pointer text-4xl md:text-5xl text-white"
           />
         </div>
         <div className="mt-4 flex flex-col gap-3">
