@@ -67,7 +67,7 @@ const App = () => {
         <Navbar />
         <div className="flex gap-2">
           <div className="relative flex flex-grow items-center">
-            <FiSearch className="absolute ml-1 sm:text-2xl md:text-3xl text-white" />
+            <FiSearch className="absolute ml-1 text-2xl md:text-3xl text-white" />
             <input
               onChange={filterContacts}
               type="text"
@@ -77,7 +77,7 @@ const App = () => {
 
           <AiFillPlusCircle
             onClick={onOpen}
-            className="cursor-pointer text-5xl text-white"
+            className="cursor-pointer text-7xl md:text-5xl text-white"
           />
         </div>
         <div className="mt-4 flex flex-col gap-3">
