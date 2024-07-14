@@ -71,7 +71,7 @@ const App = () => {
             <input
               onChange={filterContacts}
               type="text"
-              className="h-10 flex-grow rounded-md border border-white bg-transparent pl-9 text-white"
+              className="h-10 w-5 flex-grow rounded-md border border-white bg-transparent pl-9 text-white"
             />
           </div>
 
